@@ -23,8 +23,8 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-tree<- read.tree("~/cooperation/202409zhaofengxiang/data/fig5B_BV_AMG_trimal_fasta.treefile")
-dat1 <- read.table("~/cooperation/202409zhaofengxiang/data/fig5B_BV_anno_2",sep = "\t",header = T)
+tree<- read.tree("../data/fig5B_BV_AMG_trimal_fasta.treefile")
+dat1 <- read.table("../data/fig5B_BV_anno_2",sep = "\t",header = T)
 
 ########################数据导入+处理##################################
 tree<- drop.tip(tree,c("NODE_284108_length_84_cov_4.586207_1"))
