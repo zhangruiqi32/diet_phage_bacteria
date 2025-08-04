@@ -23,8 +23,8 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-data <- read.csv("~/cooperation/202409zhaofengxiang/data/fig2C_DifferentBacts_viruse.csv", header=TRUE)
-ann_col <- read.csv("~/cooperation/202409zhaofengxiang/data/fig2_sample.csv", header=TRUE)  
+data <- read.csv("../data/fig2C_DifferentBacts_viruse.csv", header=TRUE)
+ann_col <- read.csv("../data/fig2_sample.csv", header=TRUE)  
 
 
 ############################## [Fig2C] Processing and Painting #####################################
