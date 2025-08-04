@@ -23,7 +23,7 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-HGTs_bidui5<- read.table("~/cooperation/202409zhaofengxiang/data/fig6C_HGTs_bidui5")
+HGTs_bidui5<- read.table("../data/fig6C_HGTs_bidui5")
 
 ############################## Data processing ##############################
 HGTs_bidui5 <- HGTs_bidui5[HGTs_bidui5$Diet =="High_fat_diet",] #去除PRJNA290729
