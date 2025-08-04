@@ -22,12 +22,12 @@ for(package in bioconductor_packages){
 }
 
 ############################## Data loading ##############################
-x_Viru <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F-2_1.csv", row.names = 1)
-x_Bact <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F-2_2.csv", row.names = 1)
+x_Viru <- read.csv("../data/fig1F-2_1.csv", row.names = 1)
+x_Bact <- read.csv("../data/fig1F-2_2.csv", row.names = 1)
 
-As <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_As")
-prj2 <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_prj_data")
-diet_controls <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_diet1.csv")
+As <- read.table("../data/fig1_As")
+prj2 <- read.table("../data/fig1_prj_data")
+diet_controls <- read.csv("../data/fig1F_diet1.csv")
 
 ############################## Data processing ##############################
 x_Bact2 <- x_Bact[grep("g__",rownames(x_Bact)),]
