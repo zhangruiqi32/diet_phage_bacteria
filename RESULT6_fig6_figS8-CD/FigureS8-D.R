@@ -23,10 +23,10 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-prj2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_prj.csv")
-life_style_reads <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F-4.csv")
+prj2 <- read.csv("../data/fig1F_prj.csv")
+life_style_reads <- read.csv("../data/fig1F-4.csv")
 
-diet_case <- read.csv("~/cooperation/202409zhaofengxiang/data/figS8D_dietcase.csv")
+diet_case <- read.csv("../data/figS8D_dietcase.csv")
 
 ############################## Data processing ##############################
 life_style_reads$Sample_id <- sapply(strsplit(life_style_reads$Sample_id,split = ".",fixed = T), "[",1)
