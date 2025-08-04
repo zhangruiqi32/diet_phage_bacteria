@@ -23,9 +23,9 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-HGT_viruse_content_chayi2 <- read.table("~/cooperation/202409zhaofengxiang/data/fig4A_HGT_viruse_content_chayi2")
-HOST_bact_ABUNDANCE2 <-  read.table("~/cooperation/202409zhaofengxiang/data/fig4A_HostBact_Abundance2")
-DR_paintdata <- read.table("~/cooperation/202409zhaofengxiang/data/fig4A_HostBact_Donor_Recipient")
+HGT_viruse_content_chayi2 <- read.table("../data/fig4A_HGT_viruse_content_chayi2")
+HOST_bact_ABUNDANCE2 <-  read.table("../data/fig4A_HostBact_Abundance2")
+DR_paintdata <- read.table("../data/fig4A_HostBact_Donor_Recipient")
 
 
 ############################## Data processing ##############################
