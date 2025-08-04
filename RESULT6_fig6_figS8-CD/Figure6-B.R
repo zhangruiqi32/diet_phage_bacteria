@@ -23,10 +23,10 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-dfs_crass2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6B_1.csv")
-crass_phage2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6B_2.csv")
-diet_case <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6B_diet.csv")
-prj <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_prj.csv")
+dfs_crass2 <- read.csv("../data/fig6B_1.csv")
+crass_phage2 <- read.csv("../data/fig6B_2.csv")
+diet_case <- read.csv("../data/fig6B_diet.csv")
+prj <- read.csv("../data/fig1F_prj.csv")
 
 ############################## Data processing ##############################
 dfs_xiangguanxinngs <- dfs_crass2
