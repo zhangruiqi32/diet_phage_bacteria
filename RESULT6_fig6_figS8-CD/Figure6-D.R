@@ -23,13 +23,13 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-prj_data <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_prj.csv")
+prj_data <- read.csv("../data/fig1F_prj.csv")
 
-AMGs_bidui2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6D_AMGs_bidui2.csv")
-AMGs_out_id <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6D_AMGs_id.csv")
-VIBRANT_genbank_table <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6D_VIBRANT_genbank.csv")
-VIBRANT_AMG_pathways <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6D_VIBRANT_AMG_pathways.csv")
-VIBRANT_AMG_counts <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6D_VIBRANT_AMG_counts.csv")
+AMGs_bidui2 <- read.csv("../data/fig6D_AMGs_bidui2.csv")
+AMGs_out_id <- read.csv("../data/fig6D_AMGs_id.csv")
+VIBRANT_genbank_table <- read.csv("../data/fig6D_VIBRANT_genbank.csv")
+VIBRANT_AMG_pathways <- read.csv("../data/fig6D_VIBRANT_AMG_pathways.csv")
+VIBRANT_AMG_counts <- read.csv("../data/fig6D_VIBRANT_AMG_counts.csv")
 
 ############################## Data processing ##############################
 length(intersect(AMGs_out_id$V1,unique(AMGs_bidui2$AMG_name)))
