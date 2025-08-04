@@ -1,0 +1,75 @@
+﻿country,NurtrionType,score
+Australia,Low_alkohol,1
+Austria,High_alkohol,1
+Austria,Low_alkohol,2
+Belgium,Control,1
+Belgium,High_alkohol,2
+Belgium,Prebiotics,3
+Canada,ANT+HFHS,1
+Canada,BB+HFHS,2
+Canada,Control,3
+Canada,Low_alkohol,4
+Canada,PAC+HFHS,5
+China,Amylin,1
+China,APS,2
+China,ARB,3
+China,Baseline,4
+China,beef,5
+China,casein,6
+China,chicken,7
+China,Cistanche_tubulosa_phenylethanoid_glycosides,8
+China,Control,9
+China,fish,10
+China,Inulin,11
+China,NHDC,12
+China,No_Polyphenol,13
+China,pork,14
+China,probiotics,15
+China,RSV,16
+China,Saccharin,17
+China,soy,18
+China,Sucralose,19
+China,Low_alkohol,20
+France,Baseline,1
+France,Milk_protein_component,2
+France,Soybean_protein_component,3
+Germany,Baseline,1
+Germany,Control,2
+Germany,High_alkohol,3
+Germany,Inulin,4
+Germany,probiotics,5
+Germany,Proprobiotics,6
+Iceland,High_alkohol,1
+India,Baseline,1
+India,HAMS,2
+India,HAMSA,3
+India,Washout,4
+Italy,Baseline,1
+Italy,Butyrate,2
+Italy,Control,3
+Italy,Low_Milk,4
+Italy,Milk,5
+Japan,Arg+LKM,1
+Japan,Control,2
+Japan,High_alkohol,3
+Philippines,High_alkohol,1
+Philippines,Low_alkohol,2
+United Kingdom,High_alkohol,1
+United Kingdom,Low_alkohol,2
+United States,acarbose,1
+United States,Baseline,2
+United States,cholesteorl_alkyne,3
+United States,cholesterol,4
+United States,cholesterol_alkyne,5
+United States,Control,6
+United States,Dextrin,7
+United States,FOS,8
+United States,Glucose,9
+United States,High_alkohol,10
+United States,Low_alkohol,11
+United States,NR,12
+United States,probiotics,13
+United States,Resistant_starch,14
+United States,RRB,15
+United States,RRB+FOS,16
+United States,Washout,17
