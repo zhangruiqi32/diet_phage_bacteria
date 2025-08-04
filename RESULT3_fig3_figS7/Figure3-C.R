@@ -23,8 +23,8 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-viruse_contig2 <- read.table("~/cooperation/202409zhaofengxiang/data/viruse_contig")
-meta <- read.table("~/cooperation/202409zhaofengxiang/data/sample_meta")
+viruse_contig2 <- read.table("../data/viruse_contig")
+meta <- read.table("../data/sample_meta")
 
 
 ############################## Data processing ##############################
