@@ -23,9 +23,9 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-rongyuan_reads <- read.csv("~/cooperation/202409zhaofengxiang/data/fig3_S7_reads.csv")
-rongyuan_contig_length <- read.csv("~/cooperation/202409zhaofengxiang/data/fig3_S7_length.csv")
-viruse_IMG_contig_anno_chayijun <- read.csv("~/cooperation/202409zhaofengxiang/data/fig3_S7_anno.csv")
+rongyuan_reads <- read.csv("../data/fig3_S7_reads.csv")
+rongyuan_contig_length <- read.csv("../data/fig3_S7_length.csv")
+viruse_IMG_contig_anno_chayijun <- read.csv("../data/fig3_S7_anno.csv")
 
 
 ############################## Data processing ##############################
