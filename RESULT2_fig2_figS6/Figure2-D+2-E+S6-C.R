@@ -23,12 +23,12 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-data_g_B <- read.csv("~/cooperation/202409zhaofengxiang/data/fig2DE_S6C_gB.csv", row.names = 1)
-data_g_V <- read.csv("~/cooperation/202409zhaofengxiang/data/fig2DE_S6C_gV.csv", row.names = 1)
+data_g_B <- read.csv("../data/fig2DE_S6C_gB.csv", row.names = 1)
+data_g_V <- read.csv("../data/fig2DE_S6C_gV.csv", row.names = 1)
 
-df_BV_name_duiyings <- read.csv("~/cooperation/202409zhaofengxiang/data/fig2DE_S6C_nameBV.csv")
-meta <- read.csv("~/cooperation/202409zhaofengxiang/data/fig2_sample.csv")
-x <- read.csv("~/cooperation/202409zhaofengxiang/data/DABs_lefse.csv",sep=",",header = T )
+df_BV_name_duiyings <- read.csv("../data/fig2DE_S6C_nameBV.csv")
+meta <- read.csv("../data/fig2_sample.csv")
+x <- read.csv("../data/DABs_lefse.csv",sep=",",header = T )
 
 ############################## Correlatin analysis ##############################
 BV_p_value<- apply(df_BV_name_duiyings,1,function(x){
