@@ -23,12 +23,12 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-HGT_reads <- read.csv("~/cooperation/202409zhaofengxiang/data/fig4BC_S8A_reads.csv")
-HGT_contig_length <- read.csv("~/cooperation/202409zhaofengxiang/data/fig4BC_S8A_length.csv")
+HGT_reads <- read.csv("../data/fig4BC_S8A_reads.csv")
+HGT_contig_length <- read.csv("../data/fig4BC_S8A_length.csv")
 
-viruse_contig <- read.table("~/cooperation/202409zhaofengxiang/data/viruse_contig")
-x <- read.csv("~/cooperation/202409zhaofengxiang/data/DABs_lefse.csv")
-meta <- read.table("~/cooperation/202409zhaofengxiang/data/sample_meta")
+viruse_contig <- read.table("../data/viruse_contig")
+x <- read.csv("../data/DABs_lefse.csv")
+meta <- read.table("../data/sample_meta")
 
 ############################## Data processing ##############################
 HGT_contig_length$Contig2 <- sapply(strsplit(HGT_contig_length$Contig,split ="-"),"[",1)
