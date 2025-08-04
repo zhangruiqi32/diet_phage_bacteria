@@ -23,7 +23,7 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-weight_data <- read.csv("~/cooperation/202409zhaofengxiang/data/figS6A_weight.csv", header = T)  
+weight_data <- read.csv("../data/figS6A_weight.csv", header = T)  
 
 ############################## Data processing #####################################
 weight_data$week <- as.factor(weight_data$week)
