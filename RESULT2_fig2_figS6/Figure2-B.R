@@ -23,8 +23,8 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-otu_raw <- read.csv("~/cooperation/202409zhaofengxiang/data/fig2B_Bacts.csv")
-group <- read.csv("~/cooperation/202409zhaofengxiang/data/fig2_sample.csv")#读入分组文件
+otu_raw <- read.csv("../data/fig2B_Bacts.csv")
+group <- read.csv("../data/fig2_sample.csv")#读入分组文件
 
 ############################## Data processing #####################################
 otu_raw$OTU <- gsub(".*s__(\\S+).*", "s__\\1", otu_raw$OTU)
