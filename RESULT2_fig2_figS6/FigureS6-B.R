@@ -23,8 +23,8 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-x_forp2_gg <- read.csv("~/cooperation/202409zhaofengxiang/data/figS6B_1.csv")
-lefse1 <- read.csv("~/cooperation/202409zhaofengxiang/data/DABs_lefse.csv",sep=",",header = T )
+x_forp2_gg <- read.csv("../data/figS6B_1.csv")
+lefse1 <- read.csv("../data/DABs_lefse.csv",sep=",",header = T )
 
 ############################## [FigS6-B] Processing and Painting #####################################
 lefse1$Spe <- gsub("\\.","\\|",lefse1$Spe,fixed = F)
