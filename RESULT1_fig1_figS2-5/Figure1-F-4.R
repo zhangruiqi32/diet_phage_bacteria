@@ -23,13 +23,13 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-prj2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_prj.csv")
-life_style_reads <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F-4.csv")
+prj2 <- read.csv("../data/fig1F_prj.csv")
+life_style_reads <- read.csv("../data/fig1F-4.csv")
 
-diet_controls <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_diet1.csv")
-diet_controls2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_diet2.csv")
+diet_controls <- read.csv("../data/fig1F_diet1.csv")
+diet_controls2 <- read.csv("../data/fig1F_diet2.csv")
 
-crass_phage3 <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_crass_phage3")
+crass_phage3 <- read.table("../data/fig1_crass_phage3")
 
 ############################## Data processing ##############################
 #colnames(life_style_reads) <- c("Contig_number","Lytic","Temperate","Sample_id")
