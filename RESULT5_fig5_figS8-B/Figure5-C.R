@@ -22,10 +22,10 @@ for(package in bioconductor_packages){
 }
 
 ############################## Data loading ##############################
-AMG_contents_metabolism2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig5C_metabolism.csv")
-AMG_contig_length <- read.csv("~/cooperation/202409zhaofengxiang/data/fig5_contig_length.csv")
-AMG_reads <- read.csv("~/cooperation/202409zhaofengxiang/data/fig5_AMG_reads.csv")
-viruse_IMG_contig_anno_chayijun <- read.csv("~/cooperation/202409zhaofengxiang/data/fig5C_contig_anno_DiffBact.csv")
+AMG_contents_metabolism2 <- read.csv("../data/fig5C_metabolism.csv")
+AMG_contig_length <- read.csv("../data/fig5_contig_length.csv")
+AMG_reads <- read.csv("../data/fig5_AMG_reads.csv")
+viruse_IMG_contig_anno_chayijun <- read.csv("../data/fig5C_contig_anno_DiffBact.csv")
 
 ############################## Data processing ##############################
 AMG_reads_chayi  <- AMG_reads[grep("D0|D10",AMG_reads$mapped_GD),]
