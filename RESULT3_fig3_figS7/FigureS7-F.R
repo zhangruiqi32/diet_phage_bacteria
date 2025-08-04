@@ -23,11 +23,11 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-viruse_contig <- read.table("~/cooperation/202409zhaofengxiang/data/viruse_contig")
-rongyuan_reads_forzhexian <- read.csv("~/cooperation/202409zhaofengxiang/data/fig3_S7_reads.csv")
-rongyuan_contig_length <- read.csv("~/cooperation/202409zhaofengxiang/data/fig3_S7_length.csv")
-viruse_IMG_contig_anno_chayijun <- read.csv("~/cooperation/202409zhaofengxiang/data/fig3_S7_anno.csv")
-x <- read.csv("~/cooperation/202409zhaofengxiang/data/DABs_lefse.csv")
+viruse_contig <- read.table("../data/viruse_contig")
+rongyuan_reads_forzhexian <- read.csv("../data/fig3_S7_reads.csv")
+rongyuan_contig_length <- read.csv("../data/fig3_S7_length.csv")
+viruse_IMG_contig_anno_chayijun <- read.csv("../data/fig3_S7_anno.csv")
+x <- read.csv("../data/DABs_lefse.csv")
 
 ############################## Data processing ##############################
 chayijun <- sapply(strsplit(x$Spe,split = "g__"),"[",2)
