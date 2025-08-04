@@ -22,14 +22,14 @@ for(package in bioconductor_packages){
 }
 
 ############################## Data loading ##############################
-reads_number2s <- read.csv("/home/wanglab/students/zhangruiqi/cooperation/202409zhaofengxiang/data/fig3B_S7AB_readnum.csv")
-contigs_phacts <- read.csv("/home/wanglab/students/zhangruiqi/cooperation/202409zhaofengxiang/data/fig3B_S7AB_lifestyle.csv")
-cluster <- read.csv("/home/wanglab/students/zhangruiqi/cooperation/202409zhaofengxiang/data/fig3B_S7AB_cluster.csv")
-clstr_name_change <- read.csv("/home/wanglab/students/zhangruiqi/cooperation/202409zhaofengxiang/data/fig3B_S7AB_name.csv")
-Cluster_Linage <- read.csv("/home/wanglab/students/zhangruiqi/cooperation/202409zhaofengxiang/data/fig3B_S7AB_linage.csv")
+reads_number2s <- read.csv("../data/fig3B_S7AB_readnum.csv")
+contigs_phacts <- read.csv("../data/fig3B_S7AB_lifestyle.csv")
+cluster <- read.csv("../data/fig3B_S7AB_cluster.csv")
+clstr_name_change <- read.csv("../data/fig3B_S7AB_name.csv")
+Cluster_Linage <- read.csv("../data/fig3B_S7AB_linage.csv")
 
-viruse_contig <- read.table("/home/wanglab/students/zhangruiqi/cooperation/202409zhaofengxiang/data/viruse_contig")
-meta <- read.table("~/cooperation/202409zhaofengxiang/data/sample_meta")
+viruse_contig <- read.table("../data/viruse_contig")
+meta <- read.table("../data/sample_meta")
 ############################## Data processing ##############################
 Rcluster <- data.frame(matrix(nrow = 0,ncol=3))
 for (i in 1:nrow(cluster)){
