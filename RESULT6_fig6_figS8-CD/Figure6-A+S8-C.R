@@ -23,16 +23,16 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-b <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6A_2.csv",row.names = 1)
-ab <- read.csv("~/cooperation/202409zhaofengxiang/data/fig6A_1.csv")
+b <- read.csv("../data/fig6A_2.csv",row.names = 1)
+ab <- read.csv("../data/fig6A_1.csv")
 
-prj <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_prj.csv")
-prj1 <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_prj_data")
+prj <- read.csv("../data/fig1F_prj.csv")
+prj1 <- read.table("../data/fig1_prj_data")
 
-As <- read.table("~/cooperation/202409zhaofengxiang/data/fig6_As")
-prj2 <- read.table("~/cooperation/202409zhaofengxiang/data/fig6_prj_data")
+As <- read.table("../data/fig6_As")
+prj2 <- read.table("../data/fig6_prj_data")
 
-data_g_B <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_data_g_B")
+data_g_B <- read.table("../data/fig1_data_g_B")
 
 ############################## Data processing ##############################
 b_spe <- b
