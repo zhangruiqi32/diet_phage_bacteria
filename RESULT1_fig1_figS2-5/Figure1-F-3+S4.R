@@ -23,13 +23,13 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-dfs_crass2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F-3_1.csv")
-crass_phage2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F-3_2.csv")
+dfs_crass2 <- read.csv("../data/fig1F-3_1.csv")
+crass_phage2 <- read.csv("../data/fig1F-3_2.csv")
 
-prj2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_prj.csv")
-diet_controls2 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F_diet2.csv")
+prj2 <- read.csv("../data/fig1F_prj.csv")
+diet_controls2 <- read.csv("../data/fig1F_diet2.csv")
 
-crass_phage3 <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_crass_phage3")
+crass_phage3 <- read.table("../data/fig1_crass_phage3")
 
 ############################## [FigS4] Processing and Painting #####################################
 colnames(dfs_crass2) <- c("Bact","Viruse","p_value","R2","PRJ-DIET")    
