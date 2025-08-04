@@ -22,12 +22,12 @@ for(package in bioconductor_packages){
 }
 
 ############################## Data loading ##############################
-data_g_B <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_data_g_B")
+data_g_B <- read.table("../data/fig1_data_g_B")
 
-spes_tongji_BACT <- read.csv("~/cooperation/202409zhaofengxiang/data/figS3_1.csv")
-spes_tongji_VIRU <- read.csv("~/cooperation/202409zhaofengxiang/data/figS3_2.csv")
+spes_tongji_BACT <- read.csv("../data/figS3_1.csv")
+spes_tongji_VIRU <- read.csv("../data/figS3_2.csv")
 
-diet1 <- read.csv("~/cooperation/202409zhaofengxiang/data/figS3_diet.csv",sep=",", header = F)
+diet1 <- read.csv("../data/figS3_diet.csv",sep=",", header = F)
 
 ############################## Data processing ##############################
 # spes_tongji_VIRU$percent <- spes_tongji_VIRU$percent*100
