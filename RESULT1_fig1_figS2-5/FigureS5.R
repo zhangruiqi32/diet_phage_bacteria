@@ -23,8 +23,8 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-tree <- read.tree("~/cooperation/202409zhaofengxiang/data/figS5_phylogenetic_tree.nwk")
-metadata <- read.csv("~/cooperation/202409zhaofengxiang/data/figS5_metadata.csv")
+tree <- read.tree("../data/figS5_phylogenetic_tree.nwk")
+metadata <- read.csv("../data/figS5_metadata.csv")
 
 
 ############################## Data processing ##############################
