@@ -22,7 +22,7 @@ for(package in bioconductor_packages){
 }
 
 ############################## Data loading ##############################
-shannon_paint <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1F-1_shannon.csv", row.names = 1, header = T)
+shannon_paint <- read.csv("../data/fig1F-1_shannon.csv", row.names = 1, header = T)
 
 
 ############################## [Fig1-F-1] Painting #####################################
