@@ -23,7 +23,7 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-viruse_contig <- read.table("~/cooperation/202409zhaofengxiang/data/viruse_contig")
+viruse_contig <- read.table("../data/viruse_contig")
 
 ############################## Data processing ##############################
 viruse_contig2<- viruse_contig[grep("Temperate|Lytic",viruse_contig$Phacts_result),][grep("Temperate|Lytic",viruse_contig$Phacts_result),]
