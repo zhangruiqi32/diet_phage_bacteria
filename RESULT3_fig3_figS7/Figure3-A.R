@@ -23,11 +23,9 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-virsorter_contents <- read.csv("~/cooperation/202409zhaofengxiang/data/fig3A_virsorter_contents.csv")
-checkv_contents <- read.csv("~/cooperation/202409zhaofengxiang/data/fig3A_checkv_contents.csv")
-viruse_contig <- read.csv("~/cooperation/202409zhaofengxiang/data/fig3A_viruse.csv")
-#viruse_contig <- read.table("/home/wanglab/database/diet/Fucoidan_5.4/viruse_contig2")
-
+virsorter_contents <- read.csv("../data/fig3A_virsorter_contents.csv")
+checkv_contents <- read.csv("../data/fig3A_checkv_contents.csv")
+viruse_contig <- read.csv("../data/fig3A_viruse.csv")
 
 ############################## Data processing ##############################
 viruse_contig$seqname <- sapply(strsplit(viruse_contig$Contig_number,split = "|",fixed = T),"[",1 )
