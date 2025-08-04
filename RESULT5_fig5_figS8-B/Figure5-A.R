@@ -23,15 +23,15 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-meta <- read.table("~/cooperation/202409zhaofengxiang/data/sample_meta")
-AMG_contig_contents <- read.csv("~/cooperation/202409zhaofengxiang/data/fig5_AMG_contig_contents.csv")
-AMG_contents <- read.csv("~/cooperation/202409zhaofengxiang/data/fig5_AMG_contents.csv")
-AMG_contig_length <- read.csv("~/cooperation/202409zhaofengxiang/data/fig5_contig_length.csv")
-AMG_reads <- read.csv("~/cooperation/202409zhaofengxiang/data/fig5_AMG_reads.csv")
-viruse_IMG_contig_anno <- read.csv("~/cooperation/202409zhaofengxiang/data/fig5_contig_anno.csv")
+meta <- read.table("../data/sample_meta")
+AMG_contig_contents <- read.csv("../data/fig5_AMG_contig_contents.csv")
+AMG_contents <- read.csv("../data/fig5_AMG_contents.csv")
+AMG_contig_length <- read.csv("../data/fig5_contig_length.csv")
+AMG_reads <- read.csv("../data/fig5_AMG_reads.csv")
+viruse_IMG_contig_anno <- read.csv("../data/fig5_contig_anno.csv")
 
-viruse_contig <- read.table("~/cooperation/202409zhaofengxiang/data/viruse_contig")
-x <- read.csv("~/cooperation/202409zhaofengxiang/data/DABs_lefse.csv")
+viruse_contig <- read.table("../data/viruse_contig")
+x <- read.csv("../data/DABs_lefse.csv")
 
 ############################## Data processing ##############################
 AMG_contig_contents$scaffold2 <- substring(AMG_contig_contents$scaffold, 1, last = 30)
