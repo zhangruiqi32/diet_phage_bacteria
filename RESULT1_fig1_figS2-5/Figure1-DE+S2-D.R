@@ -23,13 +23,13 @@ for(package in bioconductor_packages){
 
 
 ############################## Data loading ##############################
-Diet1 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1DE_S2D_1.csv", row.names = 1, header = T)
-As<- read.table("~/cooperation/202409zhaofengxiang/data/fig1_As")
-diet1 <- read.csv("~/cooperation/202409zhaofengxiang/data/fig1DE_S2D_diet.csv")
+Diet1 <- read.csv("../data/fig1DE_S2D_1.csv", row.names = 1, header = T)
+As<- read.table("../data/fig1_As")
+diet1 <- read.csv("../data/fig1DE_S2D_diet.csv")
 
-data_g_V <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_data_g_V")
-data_g_B <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_data_g_B")
-prj2 <- read.table("~/cooperation/202409zhaofengxiang/data/fig1_prj_data")
+data_g_V <- read.table("../data/fig1_data_g_V")
+data_g_B <- read.table("../data/fig1_data_g_B")
+prj2 <- read.table("../data/fig1_prj_data")
 
 ############################## [Fig1-D] Processing and Painting #####################################
 x <- Diet1
