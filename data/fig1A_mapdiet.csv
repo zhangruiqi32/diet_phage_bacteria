@@ -1,0 +1,77 @@
+﻿country,DietType,score
+Australia,High_urbanization,1
+Australia,Low_urbanization,2
+Australia,Omnivores,3
+Austria,Omnivores,1
+Austria,Vegatarian,2
+Belgium,Chow_diet,1
+Belgium,High_fat_diet,2
+Belgium,Omnivores,3
+Canada,Baseline,1
+Canada,Chow_diet,2
+Canada,EEN_diet,3
+Canada,HFHS_diet,4
+Canada,Omnivores,5
+China,Baseline,1
+China,Chow_diet,2
+China,EEN_diet,3
+China,High_fat_diet,4
+China,High_fermented_diet,5
+China,High_protein_diet,6
+China,High_sugar_diet,7
+China,WTP_diet,8
+China,Omnivores,9
+Denmark,Baseline,1
+Denmark,Chow_diet,2
+Denmark,High_fat_diet,3
+Denmark,High_gluten_diet,4
+Denmark,Low_gluten_diet,5
+Denmark,Whole_grain_diet,6
+France,Baseline,1
+France,Low_calorie_diet,2
+Germany,Baseline,1
+Germany,Low_calorie_diet,2
+Germany,Omnivores,3
+Iceland,Omnivores,1
+India,Omnivores,1
+India,Vegatarian,2
+Italy,Baseline,1
+Italy,Control,2
+Italy,High_urbanization,3
+Italy,Low_calorie_diet,4
+Italy,Mediterranean_diet,5
+Italy,Omnivores,6
+Italy,Vegatarian,7
+Japan,Omnivores,1
+Netherlands,Baseline,1
+Netherlands,Mediterranean_diet,2
+Netherlands,Omnivores,3
+Netherlands,Vegatarian,4
+Peru,Low_urbanization,1
+Philippines,Omnivores,1
+Philippines,Vegatarian,2
+Spain,Baseline,1
+Spain,Mediterranean_diet,2
+Sweden,Baseline,1
+Sweden,Chow_diet,2
+Sweden,Low_carbon_water_diet,3
+Tanzania,Low_urbanization,1
+United Kingdom,Baseline,1
+United Kingdom,Control,2
+United Kingdom,Low_fiber_diet,3
+United Kingdom,Omnivores,4
+United Kingdom,Vegatarian,5
+United States,Baseline,1
+United States,Chow_diet,2
+United States,EEN_diet,3
+United States,Formula,4
+United States,Habitual,5
+United States,HFHS_diet,6
+United States,High_fat_diet,7
+United States,High_fermented_diet,8
+United States,High_fiber_diet,9
+United States,High_urbanization,10
+United States,Low_fiber_diet,11
+United States,MRE,12
+United States,Omnivores,13
+United States,Vegatarian,14
